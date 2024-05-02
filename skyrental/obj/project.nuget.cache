@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "HIAexXQnDVW6EYwCilMi72wu2G3FLhDWwvsSSOqZ2XvsOJV+wm4kxTrhitFs2ZSf/5PFaAEytC6hABeyjAlC0w==",
+  "success": true,
+  "projectFilePath": "C:\\dev\\skyrental\\skyrental\\skyrental.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PankajPuri\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.5\\microsoft.visualstudio.azure.containers.tools.targets.1.19.5.nupkg.sha512"
+  ],
+  "logs": []
+}

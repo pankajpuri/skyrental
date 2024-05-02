@@ -1,0 +1,107 @@
+﻿/**
+* Custom variables
+**/
+$layout-container-outer-width: rem(1512px);
+$layout-container-inner-width: rem(1000px);
+$inset-content-width: rem(730px);
+
+$nav-height: 56px;
+$nav-link-font-size-lg: rem(18px);
+$nav-link-gap: rem(25px);
+
+$primary-color: #fff;
+$secondary-color: #000;
+
+$standard-block-padding: rem(60px);
+$standard-block-padding-lg: rem(100px);
+
+$footer-sidebar-widget-margin-bottom: 2.5rem;
+
+$swiper-button-icon-width: 28px;
+$swiper-button-icon-height: 24px;
+// Multiply by 2 to pad out the button click area
+$swiper-navigation-size: $swiper-button-icon-width * 2;
+
+$input-bg-dark: #161616;
+$input-color-dark: #969696;
+
+$hamburger-line-width: rem(43px);
+$hamburger-line-height: rem(10px);
+$hamburger-line-gap: rem(9px);
+
+// For adding padding to offset annoying custom font alignments
+$calibre-light-font-offset: 0.1em;
+$calibre-black-font-offset: 0.08em;
+$calibre-bold-font-offset: 0.2em;
+
+/**
+* Bootstrap overrides
+**/
+
+// Settings
+// $enable-rfs: false;
+
+// Grid
+$grid-gutter-width: rem(60px);
+
+// Typography (note RFS is manually overridden on mobile in _typography.scss)
+$font-family-sans-serif: "Calibre-Light", system-ui, -apple-system, "Segoe UI", roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$headings-font-family: "Calibre-Black", system-ui, -apple-system, "Segoe UI", roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$input-btn-font-family: "Calibre-Light", system-ui, -apple-system, "Segoe UI", roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$btn-font-family: "Calibre-Bold", system-ui, -apple-system, "Segoe UI", roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+$h1-font-size: rem(48px);
+$h2-font-size: $h1-font-size;
+$h3-font-size: rem(30px);
+
+$font-size-base: rem(30px);
+$font-size-sm: $font-size-base;
+$font-size-lg: $font-size-base;
+
+$line-height-base: 1.2;
+$line-height-sm: $line-height-base;
+$line-height-lg: $line-height-base;
+
+$font-weight-base: 300;
+$headings-font-weight: 900;
+
+// Inputs
+$input-bg: #D3D3D3;
+$input-color: #000;
+$input-btn-font-size: rem(18px);
+$input-btn-padding-x: 1rem;
+$input-btn-padding-y: rem(6px);
+$input-btn-padding-x-sm: $input-btn-padding-x;
+$input-btn-padding-x-lg: $input-btn-padding-x;
+$input-btn-padding-y-sm: $input-btn-padding-y;
+$input-btn-padding-y-lg: $input-btn-padding-y;
+
+// Buttons
+$btn-font-size: rem(18px);
+$btn-font-weight: 700;
+$btn-padding-y: rem(14px);
+$btn-padding-x: rem(25px);
+$btn-border-radius: rem(8px);
+$btn-border-radius-sm: $btn-border-radius;
+$btn-border-radius-lg: $btn-border-radius;
+$btn-padding-x: rem(25px);
+$btn-padding-y: rem(12px);
+$btn-padding-x-sm: $btn-padding-x;
+$btn-padding-x-lg: $btn-padding-x;
+$btn-padding-y-sm: $btn-padding-y;
+$btn-padding-y-lg: $btn-padding-y;
+
+// Body
+$body-bg: #000;
+$body-color: #fff;
+$body-text-align: center;
+
+// Borders
+$border-radius: 8px;
+$border-width: 1px solid;
+
+// Nav
+$nav-link-color: $secondary-color;
+
+// Links
+$link-color: $primary-color;

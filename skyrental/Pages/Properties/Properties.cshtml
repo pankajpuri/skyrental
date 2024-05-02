@@ -1,0 +1,39 @@
+﻿@page
+@model skyrental.Pages.Properties.PropertiesModel
+@{
+}
+<h1>All Properties</h1>
+<hr />
+<a class="btn btn-primary" asp-area="" asp-page="../Properties/AddProperties">Add Properties</a>
+
+<div class="row d-flex flex-row justify-content-center align-items-center">
+        @foreach(var item in Model.PropertiesList)
+        {
+            <div class="col-6">
+
+            <div class="card mt-5">
+                <div class="card-header">
+                    @item.Image
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">@item.PropertyType</h5>
+                    <p>$@item.Rent</p>
+                    <p>@item.Address</p>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go Back</a>
+                </div>
+            </div>
+            </div>
+            }
+           @*  <tbody>
+                <tr>
+                    <td>@item.Rent</td>
+                    <td>@item.PropertyType</td>
+                    <td>@item.Image</td>
+                    <td>@item.Address</td>
+                </tr>
+            </tbody> *@
+           
+     
+
+</div>

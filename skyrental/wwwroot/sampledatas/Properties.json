@@ -1,0 +1,44 @@
+[
+  {
+    "Id": 1,
+    "Rent": 550,
+    "PropertyType": "House",
+    "Image": "",
+    "Address": "411 Blockhouse Bay Road, Blockhouse Bay, Auckland 0600"
+  },
+  {
+    "Id": 2,
+    "Rent": 750,
+    "PropertyType": "House",
+    "Image": "",
+    "Address": "41 Raithburn Terrace, Pokeno 2404"
+  },
+  {
+    "Id": 3,
+    "Rent": 890,
+    "PropertyType": "Unit",
+    "Image": "",
+    "Address": "33 Sale Street, CBD"
+  },
+  {
+    "Id": 6,
+    "Rent": 650,
+    "PropertyType": "House",
+    "Image": "",
+    "Address": "98 Blockhouse Bay Road, Blockhouse Bay, Auckland 0600"
+  },
+  {
+    "Id": 7,
+    "Rent": 550,
+    "PropertyType": "House",
+    "Image": "",
+    "Address": "1 Raithburn Terrace, Pokeno 2404"
+  },
+  {
+    "Id": 8,
+    "Rent": 900,
+    "PropertyType": "Unit",
+    "Image": "",
+    "Address": "33 Victoria Street, CBD"
+  }
+]
